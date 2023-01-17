@@ -12,6 +12,11 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+input {
+  color: white;
+  text-align: center;
+  transition: all 0.5s;
+}
 input:focus {
   outline: none;
 }

@@ -1,12 +1,12 @@
-.hidden {
-  display: none;
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hidden input {
-  display: flex;
-  justify-items: center;
+  display: none;
 }
-.hidden input:first-child,
-#login-form,
+
 #greeting {
   display: flex;
   justify-content: center;
@@ -17,19 +17,26 @@
   font-family: "Nanum Myeongjo", serif;
   background: transparent;
   border: none;
-  margin-left: 5px;
+  margin-left: 8px;
   width: 200px;
   font-size: 20px;
-  border-bottom: 1px solid white;
   caret-color: white;
+}
+#login-form input:first-child {
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
 }
 #login-form input:last-child {
   font-family: "Nanum Myeongjo", serif;
   color: white;
   width: 100px;
-  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
 }
 #login-form input::placeholder {
   color: white;
   text-align: center;
+}
+#login-form input:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }

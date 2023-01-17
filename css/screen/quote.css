@@ -1,15 +1,12 @@
-/* #quote {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 #quote span {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 15px;
+  font-size: 18px;
 }
 #quote span:first-child {
-  font-size: 20px;
+  margin-top: 90px;
+  margin-bottom: 6px;
+  font-size: 23px;
 }
