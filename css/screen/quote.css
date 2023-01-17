@@ -7,6 +7,9 @@
 }
 #quote span:first-child {
   margin-top: 90px;
-  margin-bottom: 6px;
+
   font-size: 23px;
+}
+#quote span:last-child {
+  margin-top: 7px;
 }
