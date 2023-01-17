@@ -1,0 +1,35 @@
+.hidden {
+  display: none;
+}
+.hidden input {
+  display: flex;
+  justify-items: center;
+}
+.hidden input:first-child,
+#login-form,
+#greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#login-form input {
+  font-family: "Nanum Myeongjo", serif;
+  background: transparent;
+  border: none;
+  margin-left: 5px;
+  width: 200px;
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  caret-color: white;
+}
+#login-form input:last-child {
+  font-family: "Nanum Myeongjo", serif;
+  color: white;
+  width: 100px;
+  border-bottom: 1px solid white;
+}
+#login-form input::placeholder {
+  color: white;
+  text-align: center;
+}

@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 
+@import "screen/greeting.css";
+@import "screen/clock.css";
+@import "screen/background.css";
+@import "screen/quote.css";
+
 body {
   font-family: "Nanum Myeongjo", serif;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-
-.hidden {
-  display: none;
+input:focus {
+  outline: none;
 }

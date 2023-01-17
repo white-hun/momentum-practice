@@ -1,0 +1,15 @@
+/* #quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+#quote span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+}
+#quote span:first-child {
+  font-size: 20px;
+}
