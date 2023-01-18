@@ -11,8 +11,10 @@ function saveToDos() {
 }
 
 function deleteToDo(event) {
-  const li = event.target.parentElement; //event의 target인 button의 부모element를 li로 저장
+  const li = event.target.parentElement; //event의 target인 button의 부모element를 li로 저장;
   li.remove(); // li 제거
+  toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id)); // 클릭한 li.id와 다른 toDo는 남긴다;
+  saveToDos();
 }
 
 function paintToDo(newTodo) {

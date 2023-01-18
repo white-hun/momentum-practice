@@ -5,6 +5,7 @@
 @import "screen/background.css";
 @import "screen/quote.css";
 @import "screen/todo.css";
+@import "screen/weather.css";
 
 body {
   font-family: "Nanum Myeongjo", serif;
@@ -20,4 +21,19 @@ input {
 }
 input:focus {
   outline: none;
+}
+
+.box {
+  color: white;
+  position: absolute;
+  bottom: 3%;
+  width: 185px;
+  height: 300px;
+  border: 1px solid white;
+}
+.box-text {
+  color: white;
+  position: absolute;
+  left: 1%;
+  bottom: 42%;
 }

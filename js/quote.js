@@ -34,14 +34,14 @@ const quotes = [
   },
   {
     quote:
-      "Money is like gasoline during a road trip. You don't wnant to run out of gas on your trip, but you're not doing a tour of gas starions.",
-    author: "- Tim O'Reilly -",
-  },
-  {
-    quote:
       "The only place where success comes before work is in the dictionary.",
     author: "- Vidal Sassoon -",
   },
+  // {
+  //   quote:
+  //     "Money is like gasoline during a road trip. You don't wnant to run out of gas on your trip, but you're not doing a tour of gas starions.",
+  //   author: "- Tim O'Reilly -",
+  // },
 ];
 
 const quote = document.querySelector("#quote span:first-child");

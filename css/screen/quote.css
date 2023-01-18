@@ -1,4 +1,5 @@
 #quote span {
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,8 +8,8 @@
 }
 #quote span:first-child {
   margin-top: 80px;
-
   font-size: 23px;
+  padding: none;
 }
 #quote span:last-child {
   margin-top: 7px;
