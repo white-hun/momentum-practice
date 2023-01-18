@@ -4,6 +4,7 @@
 @import "screen/clock.css";
 @import "screen/background.css";
 @import "screen/quote.css";
+@import "screen/todo.css";
 
 body {
   font-family: "Nanum Myeongjo", serif;
