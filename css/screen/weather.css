@@ -3,10 +3,19 @@
   z-index: 9;
   top: 0;
   right: 0;
-  margin: 15px;
-  font-size: 20px;
+  margin: 25px 20px;
+  font-size: 24px;
   color: white;
+  align-items: center;
+  width: 230px;
+  text-align: right;
+  align-items: center;
 }
 #weather span {
   margin-left: 15px;
+}
+#weather img {
+  display: block;
+  width: 90px;
+  height: 90px;
 }
