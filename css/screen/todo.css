@@ -46,3 +46,6 @@
   transition: all 0.5s;
   color: red;
 }
+#todo-list button {
+  transition: all 0.5s;
+}
