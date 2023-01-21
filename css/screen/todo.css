@@ -19,7 +19,8 @@
 }
 #todo-list {
   position: absolute;
-  bottom: 25%;
+  top: 54%;
+  width: 130px;
   color: white;
   font-size: 22px;
   justify-content: space-between;
@@ -27,7 +28,6 @@
 }
 
 #todo-list li {
-  width: 130px;
   margin: 5px 0;
 }
 #todo-list span {
@@ -48,4 +48,7 @@
 }
 #todo-list button {
   transition: all 0.5s;
+}
+ul {
+  width: 210px;
 }

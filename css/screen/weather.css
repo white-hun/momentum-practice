@@ -6,13 +6,15 @@
   margin: 25px 20px;
   font-size: 24px;
   color: white;
-  align-items: center;
+  /* align-items: center; */
   width: 210px;
   text-align: right;
   align-items: center;
 }
 #weather span {
-  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #weather img {
   display: block;
