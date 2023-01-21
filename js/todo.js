@@ -4,7 +4,7 @@ const toDoList = document.getElementById("todo-list");
 
 const TODOS_KEY = "todos"; // todos의 key
 
-let toDos = []; // array
+let toDos = []; // array;
 
 function saveToDos() {
   localStorage.setItem(TODOS_KEY, JSON.stringify(toDos)); // array의 내용을 string 형태의 key:todos로 localstorage에 추가;
@@ -28,7 +28,7 @@ function paintToDo(newTodo) {
   button.addEventListener("click", deleteToDo); // button에 click 시 함수 실행하는 event 추가
   li.appendChild(span); // li의 child로 span 추가
   li.appendChild(button); // li의 child로 button 추가
-  toDoList.appendChild(li); // todo-list에 span과 button이 추가된 li 추가
+  toDoList.appendChild(li); // todo-list에 span과 button이 추가된 li 추가;
 }
 
 function handleToDoSubmit(event) {
