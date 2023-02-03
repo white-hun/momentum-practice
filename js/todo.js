@@ -56,4 +56,3 @@ if (savedToDos !== null) {
 
 //array는 빈array로 시작
 //시작될 때 localstroage에 저장되어있는 이전의 todo를 포함 시켜야한다
-//
